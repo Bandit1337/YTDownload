@@ -54,7 +54,7 @@ def main():
 
 		videoFile = input ('Введите ссылку на файл с видео:')
 			
-		with open('2.txt', 'r') as file:
+		with open(videoFile, 'r') as file:
 			vidos = file.read().splitlines()
 
 		for video in vidos:
